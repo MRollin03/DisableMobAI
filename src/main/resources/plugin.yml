@@ -1,0 +1,4 @@
+name: DisableMobAI
+version: '1.0-SNAPSHOT'
+main: MRollin.disableMobAI.DisableMobAI
+api-version: '1.21'
