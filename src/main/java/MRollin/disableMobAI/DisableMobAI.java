@@ -34,6 +34,7 @@ public final class DisableMobAI extends JavaPlugin implements Listener{
         getLogger().info("DisableMobAI Disable");
     }
 
+    // Disables AI for mobs on spawn
     @EventHandler
     public void onMobSpawn(CreatureSpawnEvent event){
         World world = event.getLocation().getWorld();
